@@ -35,8 +35,8 @@ cc.Class({
         let time = (now - this._start) / 1000;
         this._material.setTime(time);
     },
-    updateShader(texture) {
-        if (this.target) {
+    updateShader() {
+        if (this.target && this._material) {
             let texture = this.target.spriteFrame.getTexture();
             this._material.setTexture(texture);
             this._material.setSize(this.target.node.width, this.target.node.height);
