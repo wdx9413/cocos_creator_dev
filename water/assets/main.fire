@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.515625,
-      "y": 0.515625,
+      "x": 0.3712322930545673,
+      "y": 0.3712322930545673,
       "z": 1
     },
     "_quat": {
@@ -1514,11 +1514,13 @@
     "_isTrimmedMode": true,
     "_state": 0,
     "_atlas": null,
-    "metaball": {
-      "__uuid__": "568691fe-7934-487f-a282-1bc2ae06ec97"
-    },
+    "metaballWidth": 200,
+    "metaballHeight": 200,
     "waters": {
       "__id__": 5
+    },
+    "_metaball": {
+      "__uuid__": "568691fe-7934-487f-a282-1bc2ae06ec97"
     },
     "_id": "8bNJgyYFFJapmC18IkvLIT"
   },
@@ -1611,7 +1613,7 @@
     },
     "_enabled": true,
     "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
+    "_dstBlendFactor": 775,
     "_spriteFrame": {
       "__uuid__": "9d954324-f15b-4346-bb00-013b691d7f24"
     },
